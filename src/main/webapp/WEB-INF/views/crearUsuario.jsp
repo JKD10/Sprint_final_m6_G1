@@ -5,9 +5,10 @@
 <html class="h-100 translated-ltr">
 <head>
 <meta charset="ISO-8859-1">
+
+
 <title>Nuevo Usuario</title>
-<!-- CSS del proyecto -->
-	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+
 <!-- CSS Bootstrap -->
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -15,7 +16,7 @@
 	integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
 	crossorigin="anonymous">
 </head>
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 bg-success">
 
 <!-- Incluyendo navbar menu -->
 	<c:set var="navItem" value="Crear" /> <!-- Menu activo -->
